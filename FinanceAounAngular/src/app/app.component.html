@@ -1,0 +1,56 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <br>
+  <!-- Browse balance sheets -->
+  <form action="/action_page.php"> <!-- THIS NEEDS TO BE THE PYTHON FILE! -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Browse balance sheets:
+            <input type="file" name="balanceSheet" accept="file_extension">
+          </p>
+          </div>
+        <div class="col-sm-6">
+          <p>Browse Income Statements:
+            <input type="file" name="incomeStatement" accept="file_extension">
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-4">
+          <p>
+            <input type="checkbox" name="cash" value="Cash"> Cash Accounting<br>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+            <input type="checkbox" name="depreciation" value="Depreciation"> No Depreciation<br>
+          </p>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+    </div>
+  </form>
+
+  
+  <br>
+
+
+  <input type="submit">
+
+</div>
+
+
