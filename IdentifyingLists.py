@@ -43,24 +43,3 @@ aExpenseIdentify = ["admin","administrative","staff","head office"]
 
 #Identifies expense items that should be classified as financing cost
 fExpenseIdentify = ["interest","bank"]
-
-
-
-
-                # for tword in lists.cashIdentify:
-                #     if (tword.lower() in value[0].lower()):
-                #         cashDict[value[0]] = float(value[1])
-                # for tword in lists.inventoryIdentify:
-                #     if (tword.lower() in value[0].lower()):
-                #         cashDict[value[0]] = float(value[1])
-                # for tword in lists.arIdentify:
-                #     if (tword.lower() in value[0].lower()):
-                #         cashDict[value[0]] = float(value[1])
-                # for tword in lists.depAssetIdentify:
-                #     if (tword.lower() in value[0].lower()):
-                #         cashDict[value[0]] = float(value[1])
-                # for tword in lists.prepaidIdentify:
-                #     if (tword.lower() in value[0].lower()):
-                #         cashDict[value[0]] = float(value[1])
-                #     else:
-                #         other[value[0]] = value[1]
