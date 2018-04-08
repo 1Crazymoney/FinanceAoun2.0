@@ -2,6 +2,9 @@
 #Cash at bank is classified as 'Cash' too
 cashIdentify = ["cash","bank","checking","savings","saving"]
 
+#Identifies asset items that should be classified as 'Inventory'
+inventoryIdentify = ["inventory"]
+
 #Identifies asset items that should be classified as 'Accounts Receivable'
 arIdentify = ["owe","owes","loan","loans","receivable","receivables","borrow","borrowed","lend","lent"]
 
