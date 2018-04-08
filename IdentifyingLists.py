@@ -2,6 +2,9 @@
 #Cash at bank is classified as 'Cash' too
 cashIdentify = ["cash","bank","checking","savings","saving"]
 
+#Identifies asset items that should be classified as ‘Inventory’
+inventoryIdentify = ["inventory"]
+
 #Identifies asset items that should be classified as 'Accounts Receivable'
 arIdentify = ["owe","owes","loan","loans","receivable","receivables","borrow","borrowed","lend","lent"]
 
@@ -40,3 +43,24 @@ aExpenseIdentify = ["admin","administrative","staff","head office"]
 
 #Identifies expense items that should be classified as financing cost
 fExpenseIdentify = ["interest","bank"]
+
+
+
+
+                # for tword in lists.cashIdentify:
+                #     if (tword.lower() in value[0].lower()):
+                #         cashDict[value[0]] = float(value[1])
+                # for tword in lists.inventoryIdentify:
+                #     if (tword.lower() in value[0].lower()):
+                #         cashDict[value[0]] = float(value[1])
+                # for tword in lists.arIdentify:
+                #     if (tword.lower() in value[0].lower()):
+                #         cashDict[value[0]] = float(value[1])
+                # for tword in lists.depAssetIdentify:
+                #     if (tword.lower() in value[0].lower()):
+                #         cashDict[value[0]] = float(value[1])
+                # for tword in lists.prepaidIdentify:
+                #     if (tword.lower() in value[0].lower()):
+                #         cashDict[value[0]] = float(value[1])
+                #     else:
+                #         other[value[0]] = value[1]
